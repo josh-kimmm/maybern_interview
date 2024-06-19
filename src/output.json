@@ -1,0 +1,732 @@
+{
+  "cid_1": {
+    "id": "1",
+    "entity_name": "Nate Cooper",
+    "total_commitment_amount": 50000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 60000,
+        "distribution_amount": 60000,
+        "return_of_capital": {
+          "LP_allocation": 50000,
+          "remaining_capital": 10000
+        },
+        "preferred_return": {
+          "LP_allocation": 5200.486968264298,
+          "remaining_capital": 4799.513031735702
+        },
+        "catch_up": {
+          "GP_allocation": 1199.8782579339254,
+          "remaining_capital": 3599.634773801776
+        },
+        "final_split": {
+          "LP_allocation": 2879.7078190414213,
+          "GP_allocation": 719.9269547603553,
+          "total_distribution": 3599.6347738017766,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 100000,
+        "distribution_amount": 40000,
+        "return_of_capital": {
+          "LP_allocation": 50000,
+          "remaining_capital": 50000
+        },
+        "preferred_return": {
+          "LP_allocation": 6976.799971971861,
+          "remaining_capital": 43023.200028028135
+        },
+        "catch_up": {
+          "GP_allocation": 10755.800007007034,
+          "remaining_capital": 32267.4000210211
+        },
+        "final_split": {
+          "LP_allocation": 25813.920016816883,
+          "GP_allocation": 6453.480004204221,
+          "total_distribution": 32267.4000210211,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 200000,
+        "distribution_amount": 100000,
+        "return_of_capital": {
+          "LP_allocation": 50000,
+          "remaining_capital": 150000
+        },
+        "preferred_return": {
+          "LP_allocation": 9616.525925725447,
+          "remaining_capital": 140383.47407427456
+        },
+        "catch_up": {
+          "GP_allocation": 35095.86851856864,
+          "remaining_capital": 105287.60555570593
+        },
+        "final_split": {
+          "LP_allocation": 84230.08444456475,
+          "GP_allocation": 21057.521111141188,
+          "total_distribution": 105287.60555570594,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_2": {
+    "id": "2",
+    "entity_name": "John Smith",
+    "total_commitment_amount": 50000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 40000,
+        "distribution_amount": 40000,
+        "return_of_capital": {
+          "LP_allocation": 40000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 60000,
+        "distribution_amount": 20000,
+        "return_of_capital": {
+          "LP_allocation": 50000,
+          "remaining_capital": 10000
+        },
+        "preferred_return": {
+          "LP_allocation": 6976.799971971861,
+          "remaining_capital": 3023.200028028139
+        },
+        "catch_up": {
+          "GP_allocation": 755.8000070070348,
+          "remaining_capital": 2267.4000210211043
+        },
+        "final_split": {
+          "LP_allocation": 1813.9200168168836,
+          "GP_allocation": 453.4800042042209,
+          "total_distribution": 2267.4000210211043,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 260000,
+        "distribution_amount": 200000,
+        "return_of_capital": {
+          "LP_allocation": 50000,
+          "remaining_capital": 210000
+        },
+        "preferred_return": {
+          "LP_allocation": 9616.525925725447,
+          "remaining_capital": 200383.47407427456
+        },
+        "catch_up": {
+          "GP_allocation": 50095.86851856864,
+          "remaining_capital": 150287.60555570593
+        },
+        "final_split": {
+          "LP_allocation": 120230.08444456475,
+          "GP_allocation": 30057.521111141188,
+          "total_distribution": 150287.60555570593,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_3": {
+    "id": "3",
+    "entity_name": "King Bowman",
+    "total_commitment_amount": 100000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 50000,
+        "distribution_amount": 50000,
+        "return_of_capital": {
+          "LP_allocation": 50000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 80000,
+        "distribution_amount": 30000,
+        "return_of_capital": {
+          "LP_allocation": 80000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 380000,
+        "distribution_amount": 300000,
+        "return_of_capital": {
+          "LP_allocation": 100000,
+          "remaining_capital": 280000
+        },
+        "preferred_return": {
+          "LP_allocation": 19233.051851450895,
+          "remaining_capital": 260766.9481485491
+        },
+        "catch_up": {
+          "GP_allocation": 65191.737037137274,
+          "remaining_capital": 195575.21111141183
+        },
+        "final_split": {
+          "LP_allocation": 156460.16888912948,
+          "GP_allocation": 39115.04222228237,
+          "total_distribution": 195575.21111141186,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_4": {
+    "id": "4",
+    "entity_name": "Kelly Smith",
+    "total_commitment_amount": 200000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 60000,
+        "distribution_amount": 60000,
+        "return_of_capital": {
+          "LP_allocation": 60000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 100000,
+        "distribution_amount": 40000,
+        "return_of_capital": {
+          "LP_allocation": 100000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 500000,
+        "distribution_amount": 400000,
+        "return_of_capital": {
+          "LP_allocation": 200000,
+          "remaining_capital": 300000
+        },
+        "preferred_return": {
+          "LP_allocation": 38466.10370290179,
+          "remaining_capital": 261533.8962970982
+        },
+        "catch_up": {
+          "GP_allocation": 65383.47407427455,
+          "remaining_capital": 196150.42222282366
+        },
+        "final_split": {
+          "LP_allocation": 156920.33777825892,
+          "GP_allocation": 39230.08444456473,
+          "total_distribution": 196150.42222282366,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_5": {
+    "id": "5",
+    "entity_name": "Brenda Johnson",
+    "total_commitment_amount": 250000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 70000,
+        "distribution_amount": 70000,
+        "return_of_capital": {
+          "LP_allocation": 70000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 120000,
+        "distribution_amount": 50000,
+        "return_of_capital": {
+          "LP_allocation": 120000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 620000,
+        "distribution_amount": 500000,
+        "return_of_capital": {
+          "LP_allocation": 250000,
+          "remaining_capital": 370000
+        },
+        "preferred_return": {
+          "LP_allocation": 48082.629628627255,
+          "remaining_capital": 321917.37037137273
+        },
+        "catch_up": {
+          "GP_allocation": 80479.34259284318,
+          "remaining_capital": 241438.02777852956
+        },
+        "final_split": {
+          "LP_allocation": 193150.42222282366,
+          "GP_allocation": 48287.605555705915,
+          "total_distribution": 241438.02777852956,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_6": {
+    "id": "6",
+    "entity_name": "Stella Raghu",
+    "total_commitment_amount": 300000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 80000,
+        "distribution_amount": 80000,
+        "return_of_capital": {
+          "LP_allocation": 80000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 140000,
+        "distribution_amount": 60000,
+        "return_of_capital": {
+          "LP_allocation": 140000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 740000,
+        "distribution_amount": 600000,
+        "return_of_capital": {
+          "LP_allocation": 300000,
+          "remaining_capital": 440000
+        },
+        "preferred_return": {
+          "LP_allocation": 57699.15555435272,
+          "remaining_capital": 382300.84444564726
+        },
+        "catch_up": {
+          "GP_allocation": 95575.21111141182,
+          "remaining_capital": 286725.63333423546
+        },
+        "final_split": {
+          "LP_allocation": 229380.50666738837,
+          "GP_allocation": 57345.12666684709,
+          "total_distribution": 286725.63333423546,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_7": {
+    "id": "7",
+    "entity_name": "Kenny Black",
+    "total_commitment_amount": 350000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 90000,
+        "distribution_amount": 90000,
+        "return_of_capital": {
+          "LP_allocation": 90000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 160000,
+        "distribution_amount": 70000,
+        "return_of_capital": {
+          "LP_allocation": 160000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 860000,
+        "distribution_amount": 700000,
+        "return_of_capital": {
+          "LP_allocation": 350000,
+          "remaining_capital": 510000
+        },
+        "preferred_return": {
+          "LP_allocation": 67315.68148007814,
+          "remaining_capital": 442684.31851992186
+        },
+        "catch_up": {
+          "GP_allocation": 110671.07962998046,
+          "remaining_capital": 332013.23888994136
+        },
+        "final_split": {
+          "LP_allocation": 265610.5911119531,
+          "GP_allocation": 66402.64777798827,
+          "total_distribution": 332013.23888994136,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_8": {
+    "id": "8",
+    "entity_name": "Cooper Andreson",
+    "total_commitment_amount": 420000,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 100000,
+        "distribution_amount": 100000,
+        "return_of_capital": {
+          "LP_allocation": 100000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 180000,
+        "distribution_amount": 80000,
+        "return_of_capital": {
+          "LP_allocation": 180000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 980000,
+        "distribution_amount": 800000,
+        "return_of_capital": {
+          "LP_allocation": 420000,
+          "remaining_capital": 560000
+        },
+        "preferred_return": {
+          "LP_allocation": 82131.76022600615,
+          "remaining_capital": 477868.23977399385
+        },
+        "catch_up": {
+          "GP_allocation": 119467.05994349846,
+          "remaining_capital": 358401.1798304954
+        },
+        "final_split": {
+          "LP_allocation": 286720.9438643963,
+          "GP_allocation": 71680.23596609908,
+          "total_distribution": 358401.1798304954,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_9": {
+    "id": "9",
+    "entity_name": "Rohan Gopu",
+    "total_commitment_amount": 476666,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 100000,
+        "distribution_amount": 100000,
+        "return_of_capital": {
+          "LP_allocation": 100000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 190000,
+        "distribution_amount": 90000,
+        "return_of_capital": {
+          "LP_allocation": 190000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 1090000,
+        "distribution_amount": 900000,
+        "return_of_capital": {
+          "LP_allocation": 476666,
+          "remaining_capital": 613334
+        },
+        "preferred_return": {
+          "LP_allocation": 93481.29710670514,
+          "remaining_capital": 519852.70289329486
+        },
+        "catch_up": {
+          "GP_allocation": 129963.17572332371,
+          "remaining_capital": 389889.52716997114
+        },
+        "final_split": {
+          "LP_allocation": 311911.62173597695,
+          "GP_allocation": 77977.90543399424,
+          "total_distribution": 389889.5271699712,
+          "remaining_capital": 0
+        }
+      }
+    }
+  },
+  "cid_10": {
+    "id": "10",
+    "entity_name": "Hallac Ronning ",
+    "total_commitment_amount": 536666,
+    "waterfall": {
+      "01/01/2021": {
+        "starting_capital": 100000,
+        "distribution_amount": 100000,
+        "return_of_capital": {
+          "LP_allocation": 100000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "06/01/2021": {
+        "starting_capital": 200000,
+        "distribution_amount": 100000,
+        "return_of_capital": {
+          "LP_allocation": 200000,
+          "remaining_capital": 0
+        },
+        "preferred_return": {
+          "LP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "catch_up": {
+          "GP_allocation": 0,
+          "remaining_capital": 0
+        },
+        "final_split": {
+          "LP_allocation": 0,
+          "GP_allocation": 0,
+          "total_distribution": 0,
+          "remaining_capital": 0
+        }
+      },
+      "01/01/2022": {
+        "starting_capital": 1200000,
+        "distribution_amount": 1000000,
+        "return_of_capital": {
+          "LP_allocation": 536666,
+          "remaining_capital": 663334
+        },
+        "preferred_return": {
+          "LP_allocation": 105697.59944253188,
+          "remaining_capital": 557636.4005574682
+        },
+        "catch_up": {
+          "GP_allocation": 139409.10013936704,
+          "remaining_capital": 418227.30041810113
+        },
+        "final_split": {
+          "LP_allocation": 334581.8403344809,
+          "GP_allocation": 83645.46008362023,
+          "total_distribution": 418227.30041810113,
+          "remaining_capital": 0
+        }
+      }
+    }
+  }
+}

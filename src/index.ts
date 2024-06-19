@@ -1,25 +1,30 @@
-import { config as configDotenv } from 'dotenv';
-import server from './server';
-import { printAppInfo } from './utils/print-app-info';
-import appConfig from './config/app.config';
-import prismaClient from '@/lib/prisma';
-import environment from '@/lib/environment';
+import { getTransactions, seedTransactionsDB } from '@/db/transactions';
+import { seedCommitmentsDB } from '@/db/commitments';
+import { getWaterfalls, startWaterfallCalculation } from '@/db/waterfall';
+import fs from 'fs';
+import { __dirname, __filename } from '@/constants';
+import path from 'path';
 
-configDotenv();
+const startScript = async () => {
+  await seedCommitmentsDB();
+  await seedTransactionsDB();
 
-server.listen(process.env.PORT, () => {
-  const { port, env, appUrl: _appUrl } = environment;
-  const {
-    api: { basePath, version },
-  } = appConfig;
-  const appUrl = `${_appUrl}:${port}`;
-  const apiUrl = `${appUrl}/${basePath}/${version}/${env}`;
-  printAppInfo(port, env, appUrl, apiUrl);
-});
+  const distributions = getTransactions().filter(
+    (t) => t.contribution_or_distribution === 'distribution'
+  );
 
-process.on('SIGINT', () => {
-  // eslint-disable-next-line @typescript-eslint/no-floating-promises
-  prismaClient.$disconnect();
-  console.log('Prisma Disconnected.');
+  distributions.forEach((distr) => {
+    startWaterfallCalculation(distr);
+  });
+
+  const waterfallsOutput = JSON.stringify(getWaterfalls());
+  console.log(path.join(__dirname, './output.json'));
+  fs.writeFileSync(path.join(__dirname, './output.json'), waterfallsOutput);
+
+  return;
+};
+
+startScript().then(() => {
+  console.log('Ending program now');
   process.exit(0);
 });

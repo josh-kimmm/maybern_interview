@@ -1,14 +1,24 @@
 import { type Config } from 'jest';
 
-const testRegex = '(/__tests__/.*|(\\.|/)(test|spec))\\.(js?|ts?)?$';
+// const testRegex = '(/tests/.*|(\\.|/)(test|spec))\\.(js?|ts?)?$';
 const config: Config = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  testRegex,
+  testRegex: '/tests/.*\\.test\\.ts$',
   verbose: true,
   notify: true,
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
+    '^(\\.{1,2}/.*)\\.js$': '$1',
+  },
+  extensionsToTreatAsEsm: ['.ts'],
+  transform: {
+    '^.+\\.ts?$': [
+      'ts-jest',
+      {
+        useESM: true,
+      },
+    ],
   },
 };
 
