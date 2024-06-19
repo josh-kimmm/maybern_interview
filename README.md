@@ -22,6 +22,7 @@ https://www.loom.com/share/caae1860a78f4e6faf87ecc5678d1b2d
 4. Preferred Returns are calculated based off each contribution made prior to the first distribution. Not 100% sure if this is the right behavior we'd want.
 5. The `starting_capital` represents the cumulative sum of all distributions for a distribution we want to calculate the waterfall on.
 6. More tests need to be written out but I made brief comments on what I would be testing for.
+7. Anywhere you see `console.error` would ideally be for 3rd party error reporting but I put that there temporarily to showcase where I think error reporting would go.
 
 ## Proposed Architecture for the Future
 
