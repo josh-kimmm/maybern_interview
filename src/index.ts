@@ -18,7 +18,7 @@ const startScript = async () => {
   });
 
   const waterfallsOutput = JSON.stringify(getWaterfalls());
-  console.log(path.join(__dirname, './output.json'));
+  console.log(`Output written to: ${path.join(__dirname, './output.json')}`);
   fs.writeFileSync(path.join(__dirname, './output.json'), waterfallsOutput);
 
   return;
